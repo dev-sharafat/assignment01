@@ -6,3 +6,81 @@
     font-weight: <weight>;
     font-style: normal;
 }
+
+
+/* header section */
+
+.header-section{
+   margin: 31px 160px;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-btn{
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;   
+}
+
+
+/* banner-section */
+
+.banner-section{
+    background-color: rgb(198, 228, 214);;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+.banner-content{
+    width: 700px;
+    height: 400px;
+
+}
+.banner-head1{
+    color:rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+}
+.banner-title{
+    font-size:56px ;
+    font-weight: 700;
+    margin-top: 16px;
+    
+}
+.banner-btn{
+    width: 270px;
+    height: 56px;
+    margin-top: 24px;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+/* main sections  */
+
+main{
+    margin: 0 160px;
+}
+
+
+
+/* pillars-section */
+
+
+.pillars-title{
+    font-size: 40px;
+    font-weight: 700;
+}
