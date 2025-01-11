@@ -164,6 +164,9 @@ main{
 }
 .vision-crd-content{
     margin-top: 12px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 
 }
 .vision-btn{
@@ -285,6 +288,7 @@ th{
     width: 200px;
     height: 72px;
     padding: 32px;
+    font-size: 20px;
 
 }
 .table-background{
@@ -404,7 +408,7 @@ th{
 .money-amount{
     width: 200px;
     height: 50px;
-    background-color: rgb(255, 255, 255);;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 40px;
     justify-content: center;
@@ -493,14 +497,22 @@ th{
     color: rgba(14, 14, 14, 0.7);
 }
 
+
+
+/* footer sesction */
+
+
 .footer-section{
     margin-top: 80px;
-    width: 1600px;
+    width: 1920px;
     height: 226px;
     text-align: center;
+    background: rgba(255, 255, 255, 0.26)
 }
 .footer-title{
     padding: 50px 160px;
+    font-size: 32px;
+    font-weight: 700;
 }
 .footer-img{
     width: 25px;
