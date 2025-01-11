@@ -6,6 +6,14 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    
+}
+body{
+    background-color: rebeccapurple;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
@@ -214,9 +222,8 @@ main{
     margin-top: 32px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
-  
-    background-position: ;
+    background-color:rgb(255, 255, 255);
+    
 }
 .challange-content{
     padding: 48px 24px;
@@ -237,4 +244,244 @@ main{
     position: absolute;
     top: 20px;
 
+}
+
+
+ /* <!-- your opinion section --> */
+
+
+.opinion-title{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.opinion-table{
+    margin-top: 24px;
+    width: 1280px;
+    height: 409px;
+    margin: 0 160px 0 160px;
+    border-radius: 16px;
+
+    
+
+}
+
+.op-table ,tr,td{
+    padding: 32px;
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);  
+}
+td{
+    font-weight: 600;
+}
+.title-01{
+    width: 969px;
+    text-align: start;
+    padding: ;
+    
+}
+th{
+    background: rgb(198, 228, 214);
+    width: 200px;
+    height: 72px;
+    padding: 32px;
+
+}
+.table-background{
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+}
+.given-ans{
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    width: 142px;
+    height: 44px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* <!-- news section --> */
+
+.news-section{
+    width: 1280px;
+    /* height: 402px; */
+}
+.news-header{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.news-content{
+    margin-top: 24px;
+}
+.news-cards{
+    margin-top: 26px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+}
+.news-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 48px;
+}
+.nw-crd-images img{
+    width: 408px;
+    height: 306px;
+    border-radius: 25px;
+
+}
+.nw-crd-content{
+    width: 744px;
+    height: 290px;
+}
+.news-title-2{
+    font-size: 32px;
+    font-weight: 700px;
+}
+.news-icon{
+    margin-top: 12px;
+}
+.news-p{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.date-time{
+    margin-top: 12px;
+}
+.tiem-fix{
+    
+    margin-left: 12px;
+}
+.news-btn{
+    margin-top: 32px;
+    width: 139px;
+    height: 48px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*         <!-- donate today section --> */
+
+.donate-today-section{
+    margin-top: 80px;
+    align-items: center;
+}
+.donate-today{
+    text-align: center;
+}
+.money-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.donate-today-title{
+    font-size: 40px;
+    font-weight: 700px;
+
+}
+.donate-contant{
+    margin-top: 24px;
+}
+.money-box{
+    margin-top: 32px;
+    width: 1071px;
+    height: 128px;
+}
+.money-amount{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);;
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 18px;
+}
+.font-size{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.money-amount2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(198, 228, 214);
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 18px;
+}
+.input-field{
+    margin-top: 32px;
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+.donate-btns{
+    margin:32px 0px 80px 0;
+}
+.donate-btn{
+    width: 170px;
+    height: 56px;
+    padding: 0 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+.newslatter-section{
+    width: 1280px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.subscribe-content{
+    text-align: center;
+    align-items: center;
+    padding: 80px 100px;
+    width: 750px;
+    height: 235px;
+}
+.newslatter-txt{
+    margin: 16px 0 24px 0;
+
+}
+.input-mail{
+    width: 600px;
+    height: 55px;
+    position: relative;
+    left: -30px;
+    padding: 0 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.latter-btn{
+    width: 150px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1200px;
+    border-left: none;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+}
+.newslatter-cnt{
+    margin-top:24px;
 }
